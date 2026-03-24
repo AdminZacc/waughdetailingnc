@@ -34,3 +34,4 @@ Then visit http://localhost:8000
 
 - Edit index.html for text/content.
 - Edit styles.css for colors, spacing, and layout.
+# waughdetailingnc
