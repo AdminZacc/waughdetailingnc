@@ -11,7 +11,7 @@
   --shadow-sm: 0 2px 8px rgba(16, 24, 32, 0.06);
   --shadow: 0 12px 32px rgba(16, 24, 32, 0.1);
   --radius: 1rem;
-  --header-h: 64px;
+  --header-h: 128px;
 }
 
 *,
@@ -81,12 +81,12 @@ h3 {
 .brand {
   font-family: "Domine", serif;
   font-weight: 700;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   color: var(--ink);
   text-decoration: none;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.75rem;
 }
 
 .brand:hover {
@@ -94,9 +94,9 @@ h3 {
 }
 
 .brand-logo {
-  height: 40px;
+  height: 80px;
   width: auto;
-  border-radius: 6px;
+  border-radius: 8px;
 }
 
 .hero-logo {
