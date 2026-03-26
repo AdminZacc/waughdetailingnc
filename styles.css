@@ -400,6 +400,47 @@ h3 {
   color: var(--ink);
 }
 
+/* ===== BEFORE & AFTER GALLERY ===== */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.gallery-col-header {
+  font-family: "Domine", serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--ink-light);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding-bottom: 0.25rem;
+  border-bottom: 2px solid var(--orange);
+}
+
+.gallery-item {
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--card-border);
+  box-shadow: var(--shadow-sm);
+  transition:
+    transform 250ms ease,
+    box-shadow 250ms ease;
+}
+
+.gallery-item:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 /* ===== FOOTER ===== */
 footer {
   background: var(--ink);
