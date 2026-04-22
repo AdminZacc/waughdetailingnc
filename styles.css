@@ -97,6 +97,7 @@ h3 {
   height: 80px;
   width: auto;
   border-radius: 8px;
+  mix-blend-mode: multiply;
 }
 
 .hero-logo {
